@@ -1,6 +1,8 @@
 def show_menu():
 
-    """欢迎界面"""
+    """
+    欢迎界面
+        """
 
     print("*****" * 10)
     print("欢迎「使用名片管理系统」V1.0\n")
@@ -17,7 +19,9 @@ card_list = []
 
 def new_card():
 
-    """新增名片"""
+    """
+    新增名片
+    """
 
     print("-----" * 10)
 
@@ -41,7 +45,9 @@ def new_card():
 
 def show_all():
 
-    """显示所有名片"""
+    """
+    显示所有名片
+    """
 
     print("-----" * 10)
 
@@ -64,7 +70,9 @@ def show_all():
 
 def search_card():
 
-    """搜索名片"""
+    """
+    搜索名片
+    """
 
     print("-----" * 10)
     # 1、提示用户输入要搜索的姓名
@@ -92,8 +100,8 @@ def search_card():
 
 def update_card(card_dict):
 
-    """处理查找到的名片
-
+    """
+    处理查找到的名片
     :rtype: object
     """
     # print(card_dict)
@@ -157,8 +165,8 @@ def update_card(card_dict):
 
 def input_card_info(dict_value, tip_message):
 
-    """输入名片信息
-
+    """
+    输入名片信息
     :param dict_value:字典中原有的数据
     :param tip_message:输入提示文字
     :return:如果用户输入了内容，就返回内容，否则返回字典中原有的值
